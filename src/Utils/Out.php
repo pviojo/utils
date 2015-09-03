@@ -2,9 +2,9 @@
 
 namespace Utils;
 
-class Utils
+class Out
 {
-    public static function pr($string)
+    public static function dump($string)
     {
         return print_r($string);
     }
